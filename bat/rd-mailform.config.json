@@ -1,0 +1,10 @@
+{
+  "useSmtp": true,
+  "host": "nl1-ts3.a2hosting.com",
+  "port": 465,
+  "username": "shop@chef-art.net",
+  "password": "Mido1983!",
+  "recipientEmail": "chefart0910@gmail.com, michael.doroshenko1@gmail.com, orderschefart@gmail.com"
+}
+
+
