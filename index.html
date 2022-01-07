@@ -2,6 +2,23 @@
 <html class="wide wow-animation" lang="en">
 <head>
     <title>Chef-Art</title>
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            "name": "Chef-Art",
+            "url": "https://lp.chef-art.net/",
+            "logo": "https://lp.chef-art.net/images/Chef_Art_logo.png",
+            "contactPoint": {
+                "@type": "ContactPoint",
+                "telephone": "+972-52-8936-259",
+                "contactType": "sales",
+                "areaServed": "IL",
+                "availableLanguage": ["Hebrew","Russian"]
+            },
+            "sameAs": "https://www.facebook.com/search/top?q=%D1%84orma%20%D0%BE%D1%82%20chefart"
+        }
+    </script>
     <!-- Google Tag Manager -->
     <script>(function (w, d, s, l, i) {
         w[l] = w[l] || [];
@@ -19,6 +36,12 @@
     <!-- End Google Tag Manager -->
     <meta charset="utf-8">
     <meta content="width=device-width, height=device-height, initial-scale=1.0" name="viewport">
+    <meta property="og:title" content="אוכל בריא יכול להיות טעים ">
+    <meta property="og:site_name" content="boutique Chef-Art">
+    <meta property="og:url" content="https://lp.chef-art.net/">
+    <meta property="og:description" content="הוקמה בשנת 2015, כמסעדה אמינה שבה Chef-Art כל אחד יכול להזמין אוכל בריא שהוא אוהב">
+    <meta property="og:type" content="article">
+    <meta property="og:image" content="https://lp.chef-art.net/images/md1.jpg">
     <meta content="IE=edge" http-equiv="X-UA-Compatible">
     <link href="images/favicon.ico" rel="icon" type="image/x-icon">
     <link href="css/bootstrap.css" rel="stylesheet">
@@ -348,7 +371,7 @@
                         <div class="product-price">
                             <div class="product-price-header">
                                 <div class="product-price-currency">₪</div>
-                                <div class="product-price-value">75</div>
+                                <div class="product-price-value">85</div>
                             </div>
                             <div class="product-price-footer">ליום</div>
                         </div>
@@ -373,7 +396,7 @@
                         <div class="product-price">
                             <div class="product-price-header">
                                 <div class="product-price-currency">₪</div>
-                                <div class="product-price-value">80 <span class="product-price-currency" dir="rtl">החל מ-</span>
+                                <div class="product-price-value">92 <span class="product-price-currency" dir="rtl">החל מ-</span>
                                 </div>
                             </div>
                             <div class="product-price-footer">ליום</div>
@@ -400,7 +423,7 @@
                         <div class="product-price">
                             <div class="product-price-header">
                                 <div class="product-price-currency">₪</div>
-                                <div class="product-price-value">75</div>
+                                <div class="product-price-value">90</div>
                             </div>
                             <div class="product-price-footer">ליום</div>
                         </div>
@@ -524,13 +547,13 @@
             </div>
         </div>
         <div class="box-custom-3">
-            <div class="box-custom-3-img-wrap"><img alt="" height="187" src="images/tr13.png" width="600"/>
+            <div class="box-custom-3-img-wrap"><img alt="" height="187" src="images/home-01-382x375.png" width="382"/>
             </div>
-<!--            <div class="box-custom-3-img-wrap"><img alt="" height="146" src="images/home-02-293x293.png" width="293"/>-->
-<!--            </div>-->
-<!--            <div class="box-custom-3-img-wrap"><img alt="" height="203" src="images/home-03-461x407.png" width="461"/>-->
-<!--            </div>-->
-<!--            <div class="box-custom-3-img-wrap"><img alt="" height="95" src="images/home-04-191x191.png" width="191"/>-->
+            <div class="box-custom-3-img-wrap"><img alt="" height="146" src="images/home-02-293x293.png" width="293"/>
+            </div>
+            <div class="box-custom-3-img-wrap"><img alt="" height="203" src="images/home-03-461x407.png" width="461"/>
+            </div>
+            <div class="box-custom-3-img-wrap"><img alt="" height="95" src="images/home-04-191x191.png" width="191"/>
             </div>
         </div>
     </section>
@@ -757,6 +780,29 @@
         </div>
     </footer>
 </div>
+<script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.1/firebase-app.js";
+    import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.6.1/firebase-analytics.js";
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    const firebaseConfig = {
+        apiKey: "AIzaSyBzLktACyFCv-ONJfqvSkAnBANJ9qaUQng",
+        authDomain: "lp-chefaret.firebaseapp.com",
+        projectId: "lp-chefaret",
+        storageBucket: "lp-chefaret.appspot.com",
+        messagingSenderId: "1029165730150",
+        appId: "1:1029165730150:web:3c3cc3778982b0e53c20a7",
+        measurementId: "G-5R059VZE45"
+    };
+
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    const analytics = getAnalytics(app);
+</script>
 <div class="snackbars" id="form-output-global"></div>
 <script src="js/core.min.js"></script>
 <script src="js/script.js"></script>
